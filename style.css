@@ -1,0 +1,72 @@
+.flag{
+    width: 900px;
+    height: 600px;
+    position: relative;
+    background-color: #f4590b;
+    border: 1px solid black;
+  }
+
+.flag>div{
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    background-color: rgb(7, 146, 7);
+    margin-top: 400px;
+    margin-left: -0.5px;
+    border: 1px solid black;
+}
+.flag>div>div{
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    background-color: white;
+    margin-top: -200px;
+    margin-left: -2px;
+    border: 1px solid black;
+}
+.flag img{
+    margin-top: 240px;
+    margin-left: 400px;
+}
+.flag>div>div>div{
+    width: 20px;
+    height: 1200px;
+    background-color: rgb(92, 9, 9);
+    margin-top: -201.5px;
+    margin-left: -5px;
+}
+p{
+    margin-top: -300px;
+    margin-left: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: larger;
+}
+@media(max-width:1000px){
+    .flag{
+        width: 360px;
+        height: 80px;
+    }
+    .flag>div{
+        width: 360px;
+        height: 80px;
+        margin-top: 160px;
+    }
+    .flag>div>div{
+        width: 360px;
+        height: 80px;
+        margin-top: -80px;
+    }
+    .flag>div>div>div{
+        width: 8px;
+        height: 1200px;
+    }
+    .flag img{
+        width: 50px;
+        height: 50px;
+        margin-left: 160px;
+        margin-top: 221px;
+        
+    }
+    
+}
